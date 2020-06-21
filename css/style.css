@@ -410,13 +410,19 @@ footer .foot_logo span {
 }
 footer #social {
   text-align: center;
+  margin: 0 auto;
 }
-footer #social .fa {
+footer #social a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 25px;
+}
+footer #social a:first-child {
+  margin-left: 0;
+}
+footer #social a .fa {
   font-size: 16px;
-  letter-spacing: 20px;
-}
-footer #social .fa:last-child {
-  letter-spacing: 0;
 }
 footer #social .fa-facebook:hover {
   color: #102686;
